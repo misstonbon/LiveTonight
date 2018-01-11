@@ -17,14 +17,16 @@
 		CBBFACB52007EB230028FDB2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBFACB42007EB230028FDB2 /* CoreLocation.framework */; };
 		CBBFACB82007EBD50028FDB2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFACB72007EBD50028FDB2 /* DetailsViewController.swift */; };
 		CBBFACBB2007EC0A0028FDB2 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFACBA2007EC0A0028FDB2 /* Events.swift */; };
-		CBBFACC02007FCFA0028FDB2 /* pinpicture.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACBD2007FCF90028FDB2 /* pinpicture.png */; };
-		CBBFACC12007FCFA0028FDB2 /* pinpic.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACBE2007FCF90028FDB2 /* pinpic.png */; };
-		CBBFACC22007FCFA0028FDB2 /* pinpicturesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACBF2007FCFA0028FDB2 /* pinpicturesmall.png */; };
-		CBBFACC42007FD030028FDB2 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACC32007FD020028FDB2 /* pin.png */; };
 		CBBFACC62007FD0A0028FDB2 /* mapPin.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACC52007FD0A0028FDB2 /* mapPin.png */; };
-		CBBFACC82007FDBC0028FDB2 /* smallestpin.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACC72007FDBC0028FDB2 /* smallestpin.png */; };
-		CBBFACCA2007FEA40028FDB2 /* powered-by-songkick-pink.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACC92007FEA30028FDB2 /* powered-by-songkick-pink.png */; };
 		CBBFACCC200802400028FDB2 /* secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACCB200802400028FDB2 /* secrets.plist */; };
+		CBBFACD2200811450028FDB2 /* powered-by-songkick-pink.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACCD200811450028FDB2 /* powered-by-songkick-pink.png */; };
+		CBBFACD3200811450028FDB2 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACCE200811450028FDB2 /* pin.png */; };
+		CBBFACD4200811450028FDB2 /* pinpicture.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACCF200811450028FDB2 /* pinpicture.png */; };
+		CBBFACD5200811450028FDB2 /* pinpic.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACD0200811450028FDB2 /* pinpic.png */; };
+		CBBFACD6200811450028FDB2 /* pinpicturesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACD1200811450028FDB2 /* pinpicturesmall.png */; };
+		CBBFACD8200811510028FDB2 /* smallestpin.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACD7200811510028FDB2 /* smallestpin.png */; };
+		CBBFACDA200811550028FDB2 /* mapPin.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACD9200811550028FDB2 /* mapPin.png */; };
+		CBBFACDC2008164C0028FDB2 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACDB2008164B0028FDB2 /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,14 +62,16 @@
 		CBBFACB42007EB230028FDB2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		CBBFACB72007EBD50028FDB2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		CBBFACBA2007EC0A0028FDB2 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
-		CBBFACBD2007FCF90028FDB2 /* pinpicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pinpicture.png; path = ../../../../Desktop/pinpicture.png; sourceTree = "<group>"; };
-		CBBFACBE2007FCF90028FDB2 /* pinpic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pinpic.png; path = ../../../../Desktop/pinpic.png; sourceTree = "<group>"; };
-		CBBFACBF2007FCFA0028FDB2 /* pinpicturesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pinpicturesmall.png; path = ../../../../Desktop/pinpicturesmall.png; sourceTree = "<group>"; };
-		CBBFACC32007FD020028FDB2 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pin.png; path = ../../../../Desktop/pin.png; sourceTree = "<group>"; };
 		CBBFACC52007FD0A0028FDB2 /* mapPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapPin.png; sourceTree = "<group>"; };
-		CBBFACC72007FDBC0028FDB2 /* smallestpin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallestpin.png; path = ../../../../Desktop/smallestpin.png; sourceTree = "<group>"; };
-		CBBFACC92007FEA30028FDB2 /* powered-by-songkick-pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "powered-by-songkick-pink.png"; path = "../../../../Desktop/powered-by-songkick-pink.png"; sourceTree = "<group>"; };
 		CBBFACCB200802400028FDB2 /* secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = secrets.plist; sourceTree = "<group>"; };
+		CBBFACCD200811450028FDB2 /* powered-by-songkick-pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "powered-by-songkick-pink.png"; path = "../../powered-by-songkick-pink.png"; sourceTree = "<group>"; };
+		CBBFACCE200811450028FDB2 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pin.png; path = ../../pin.png; sourceTree = "<group>"; };
+		CBBFACCF200811450028FDB2 /* pinpicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pinpicture.png; path = ../../pinpicture.png; sourceTree = "<group>"; };
+		CBBFACD0200811450028FDB2 /* pinpic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pinpic.png; path = ../../pinpic.png; sourceTree = "<group>"; };
+		CBBFACD1200811450028FDB2 /* pinpicturesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pinpicturesmall.png; path = ../../pinpicturesmall.png; sourceTree = "<group>"; };
+		CBBFACD7200811510028FDB2 /* smallestpin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallestpin.png; path = ../../smallestpin.png; sourceTree = "<group>"; };
+		CBBFACD9200811550028FDB2 /* mapPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mapPin.png; path = ../../mapPin.png; sourceTree = "<group>"; };
+		CBBFACDB2008164B0028FDB2 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,13 +126,15 @@
 			children = (
 				CBBFACCB200802400028FDB2 /* secrets.plist */,
 				CBBFAC852007EABD0028FDB2 /* AppDelegate.swift */,
-				CBBFACBE2007FCF90028FDB2 /* pinpic.png */,
-				CBBFACC72007FDBC0028FDB2 /* smallestpin.png */,
+				CBBFACCE200811450028FDB2 /* pin.png */,
+				CBBFACD0200811450028FDB2 /* pinpic.png */,
+				CBBFACD9200811550028FDB2 /* mapPin.png */,
+				CBBFACDB2008164B0028FDB2 /* background.png */,
+				CBBFACD7200811510028FDB2 /* smallestpin.png */,
+				CBBFACCF200811450028FDB2 /* pinpicture.png */,
+				CBBFACD1200811450028FDB2 /* pinpicturesmall.png */,
+				CBBFACCD200811450028FDB2 /* powered-by-songkick-pink.png */,
 				CBBFACC52007FD0A0028FDB2 /* mapPin.png */,
-				CBBFACC92007FEA30028FDB2 /* powered-by-songkick-pink.png */,
-				CBBFACC32007FD020028FDB2 /* pin.png */,
-				CBBFACBD2007FCF90028FDB2 /* pinpicture.png */,
-				CBBFACBF2007FCFA0028FDB2 /* pinpicturesmall.png */,
 				CBBFAC872007EABD0028FDB2 /* ViewController.swift */,
 				CBBFAC892007EABD0028FDB2 /* Main.storyboard */,
 				CBBFACBA2007EC0A0028FDB2 /* Events.swift */,
@@ -272,17 +278,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBBFACC22007FCFA0028FDB2 /* pinpicturesmall.png in Resources */,
-				CBBFACC02007FCFA0028FDB2 /* pinpicture.png in Resources */,
 				CBBFACC62007FD0A0028FDB2 /* mapPin.png in Resources */,
-				CBBFACC82007FDBC0028FDB2 /* smallestpin.png in Resources */,
 				CBBFAC902007EABD0028FDB2 /* LaunchScreen.storyboard in Resources */,
-				CBBFACC42007FD030028FDB2 /* pin.png in Resources */,
+				CBBFACDC2008164C0028FDB2 /* background.png in Resources */,
 				CBBFAC8D2007EABD0028FDB2 /* Assets.xcassets in Resources */,
+				CBBFACD5200811450028FDB2 /* pinpic.png in Resources */,
+				CBBFACD8200811510028FDB2 /* smallestpin.png in Resources */,
+				CBBFACD6200811450028FDB2 /* pinpicturesmall.png in Resources */,
+				CBBFACD3200811450028FDB2 /* pin.png in Resources */,
+				CBBFACD4200811450028FDB2 /* pinpicture.png in Resources */,
 				CBBFAC8B2007EABD0028FDB2 /* Main.storyboard in Resources */,
-				CBBFACCA2007FEA40028FDB2 /* powered-by-songkick-pink.png in Resources */,
+				CBBFACD2200811450028FDB2 /* powered-by-songkick-pink.png in Resources */,
+				CBBFACDA200811550028FDB2 /* mapPin.png in Resources */,
 				CBBFACCC200802400028FDB2 /* secrets.plist in Resources */,
-				CBBFACC12007FCFA0028FDB2 /* pinpic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

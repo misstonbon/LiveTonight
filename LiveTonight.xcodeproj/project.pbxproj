@@ -14,6 +14,17 @@
 		CBBFAC902007EABD0028FDB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBBFAC8E2007EABD0028FDB2 /* LaunchScreen.storyboard */; };
 		CBBFAC9B2007EABD0028FDB2 /* LiveTonightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFAC9A2007EABD0028FDB2 /* LiveTonightTests.swift */; };
 		CBBFACA62007EABD0028FDB2 /* LiveTonightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFACA52007EABD0028FDB2 /* LiveTonightUITests.swift */; };
+		CBBFACB52007EB230028FDB2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBFACB42007EB230028FDB2 /* CoreLocation.framework */; };
+		CBBFACB82007EBD50028FDB2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFACB72007EBD50028FDB2 /* DetailsViewController.swift */; };
+		CBBFACBB2007EC0A0028FDB2 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFACBA2007EC0A0028FDB2 /* Events.swift */; };
+		CBBFACC02007FCFA0028FDB2 /* pinpicture.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACBD2007FCF90028FDB2 /* pinpicture.png */; };
+		CBBFACC12007FCFA0028FDB2 /* pinpic.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACBE2007FCF90028FDB2 /* pinpic.png */; };
+		CBBFACC22007FCFA0028FDB2 /* pinpicturesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACBF2007FCFA0028FDB2 /* pinpicturesmall.png */; };
+		CBBFACC42007FD030028FDB2 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACC32007FD020028FDB2 /* pin.png */; };
+		CBBFACC62007FD0A0028FDB2 /* mapPin.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACC52007FD0A0028FDB2 /* mapPin.png */; };
+		CBBFACC82007FDBC0028FDB2 /* smallestpin.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACC72007FDBC0028FDB2 /* smallestpin.png */; };
+		CBBFACCA2007FEA40028FDB2 /* powered-by-songkick-pink.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACC92007FEA30028FDB2 /* powered-by-songkick-pink.png */; };
+		CBBFACCC200802400028FDB2 /* secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACCB200802400028FDB2 /* secrets.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +57,17 @@
 		CBBFAC9C2007EABD0028FDB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBBFACA12007EABD0028FDB2 /* LiveTonightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveTonightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBFACA52007EABD0028FDB2 /* LiveTonightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTonightUITests.swift; sourceTree = "<group>"; };
-		CBBFACA72007EABD0028FDB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBBFACB42007EB230028FDB2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CBBFACB72007EBD50028FDB2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		CBBFACBA2007EC0A0028FDB2 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		CBBFACBD2007FCF90028FDB2 /* pinpicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pinpicture.png; path = ../../../../Desktop/pinpicture.png; sourceTree = "<group>"; };
+		CBBFACBE2007FCF90028FDB2 /* pinpic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pinpic.png; path = ../../../../Desktop/pinpic.png; sourceTree = "<group>"; };
+		CBBFACBF2007FCFA0028FDB2 /* pinpicturesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pinpicturesmall.png; path = ../../../../Desktop/pinpicturesmall.png; sourceTree = "<group>"; };
+		CBBFACC32007FD020028FDB2 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pin.png; path = ../../../../Desktop/pin.png; sourceTree = "<group>"; };
+		CBBFACC52007FD0A0028FDB2 /* mapPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapPin.png; sourceTree = "<group>"; };
+		CBBFACC72007FDBC0028FDB2 /* smallestpin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallestpin.png; path = ../../../../Desktop/smallestpin.png; sourceTree = "<group>"; };
+		CBBFACC92007FEA30028FDB2 /* powered-by-songkick-pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "powered-by-songkick-pink.png"; path = "../../../../Desktop/powered-by-songkick-pink.png"; sourceTree = "<group>"; };
+		CBBFACCB200802400028FDB2 /* secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = secrets.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBBFACB52007EB230028FDB2 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +103,7 @@
 				CBBFAC992007EABD0028FDB2 /* LiveTonightTests */,
 				CBBFACA42007EABD0028FDB2 /* LiveTonightUITests */,
 				CBBFAC832007EABD0028FDB2 /* Products */,
+				CBBFACB32007EB230028FDB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +120,19 @@
 		CBBFAC842007EABD0028FDB2 /* LiveTonight */ = {
 			isa = PBXGroup;
 			children = (
+				CBBFACCB200802400028FDB2 /* secrets.plist */,
 				CBBFAC852007EABD0028FDB2 /* AppDelegate.swift */,
+				CBBFACBE2007FCF90028FDB2 /* pinpic.png */,
+				CBBFACC72007FDBC0028FDB2 /* smallestpin.png */,
+				CBBFACC52007FD0A0028FDB2 /* mapPin.png */,
+				CBBFACC92007FEA30028FDB2 /* powered-by-songkick-pink.png */,
+				CBBFACC32007FD020028FDB2 /* pin.png */,
+				CBBFACBD2007FCF90028FDB2 /* pinpicture.png */,
+				CBBFACBF2007FCFA0028FDB2 /* pinpicturesmall.png */,
 				CBBFAC872007EABD0028FDB2 /* ViewController.swift */,
 				CBBFAC892007EABD0028FDB2 /* Main.storyboard */,
+				CBBFACBA2007EC0A0028FDB2 /* Events.swift */,
+				CBBFACB72007EBD50028FDB2 /* DetailsViewController.swift */,
 				CBBFAC8C2007EABD0028FDB2 /* Assets.xcassets */,
 				CBBFAC8E2007EABD0028FDB2 /* LaunchScreen.storyboard */,
 				CBBFAC912007EABD0028FDB2 /* Info.plist */,
@@ -120,9 +153,16 @@
 			isa = PBXGroup;
 			children = (
 				CBBFACA52007EABD0028FDB2 /* LiveTonightUITests.swift */,
-				CBBFACA72007EABD0028FDB2 /* Info.plist */,
 			);
 			path = LiveTonightUITests;
+			sourceTree = "<group>";
+		};
+		CBBFACB32007EB230028FDB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBBFACB42007EB230028FDB2 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +272,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBBFACC22007FCFA0028FDB2 /* pinpicturesmall.png in Resources */,
+				CBBFACC02007FCFA0028FDB2 /* pinpicture.png in Resources */,
+				CBBFACC62007FD0A0028FDB2 /* mapPin.png in Resources */,
+				CBBFACC82007FDBC0028FDB2 /* smallestpin.png in Resources */,
 				CBBFAC902007EABD0028FDB2 /* LaunchScreen.storyboard in Resources */,
+				CBBFACC42007FD030028FDB2 /* pin.png in Resources */,
 				CBBFAC8D2007EABD0028FDB2 /* Assets.xcassets in Resources */,
 				CBBFAC8B2007EABD0028FDB2 /* Main.storyboard in Resources */,
+				CBBFACCA2007FEA40028FDB2 /* powered-by-songkick-pink.png in Resources */,
+				CBBFACCC200802400028FDB2 /* secrets.plist in Resources */,
+				CBBFACC12007FCFA0028FDB2 /* pinpic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +307,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBBFACBB2007EC0A0028FDB2 /* Events.swift in Sources */,
 				CBBFAC882007EABD0028FDB2 /* ViewController.swift in Sources */,
 				CBBFAC862007EABD0028FDB2 /* AppDelegate.swift in Sources */,
+				CBBFACB82007EBD50028FDB2 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

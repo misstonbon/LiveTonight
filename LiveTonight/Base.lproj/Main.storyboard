@@ -43,29 +43,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ceJ-Xy-32u">
-                                <rect key="frame" x="75" y="233" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6G0-4D-dOE">
-                                <rect key="frame" x="113" y="307" width="148" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="powered-by-songkick-pink.png"/>
-                                <connections>
-                                    <action selector="toTickets:" destination="Duc-8C-ctg" eventType="touchUpInside" id="qNZ-ql-9lO"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntC-ea-74v">
-                                <rect key="frame" x="79" y="96" width="114" height="71"/>
+                                <rect key="frame" x="161" y="32" width="69" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="pinpicture.png"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="2kc-RG-UQn"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6G0-4D-dOE">
+                                <rect key="frame" x="144" y="379" width="148" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="powered-by-songkick-pink.png"/>
+                                <connections>
+                                    <action selector="toTickets:" destination="Duc-8C-ctg" eventType="touchUpInside" id="qNZ-ql-9lO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXf-5F-oU6">
+                                <rect key="frame" x="84" y="254" width="239" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="share_twitter.png"/>
+                                <connections>
+                                    <action selector="shareTwitter:" destination="Duc-8C-ctg" eventType="touchUpInside" id="6Sm-cQ-Q5P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDp-sy-k7Q">
+                                <rect key="frame" x="91" y="312" width="224" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="share_facebook.png"/>
+                                <connections>
+                                    <action selector="shareFacebook:" destination="Duc-8C-ctg" eventType="touchUpInside" id="1do-rc-FhQ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ceJ-Xy-32u">
+                                <rect key="frame" x="53" y="137" width="284" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="8j1-Kk-hms"/>
@@ -83,8 +99,10 @@
     <resources>
         <image name="pinpicture.png" width="60" height="71"/>
         <image name="powered-by-songkick-pink.png" width="427" height="150"/>
+        <image name="share_facebook.png" width="464" height="108"/>
+        <image name="share_twitter.png" width="966" height="180"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2kc-RG-UQn"/>
+        <segue reference="WZ8-g0-6Ke"/>
     </inferredMetricsTieBreakers>
 </document>

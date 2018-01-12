@@ -20,14 +20,32 @@ class DetailsViewController: UIViewController {
     @IBOutlet var eventTitle: UILabel!
     
     @IBAction func toTickets(_ sender: Any) {
-        openUrl(urlStr: "http://www.google.com")
+        openTicketsUrl(urlStr: concertData?.linkToTickets )
     }
     
-    func openUrl(urlStr:String!) {
+    @IBAction func shareTwitter(_ sender: Any) {
+        shareOnTwitter(urlStr: "http://www.twitter.com" )
+    }
+    
+    @IBAction func shareFacebook(_ sender: Any) {
+        shareOnFacebook(urlStr: "http://www.facebook.com" )
+    }
+    
+    func openTicketsUrl(urlStr:String!) {
         if let url = NSURL(string:urlStr){
-            
-       
         UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
+        }
+    }
+    
+    func shareOnTwitter(urlStr:String!) {
+        if let url = NSURL(string:urlStr){
+            UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
+        }
+    }
+    
+    func shareOnFacebook(urlStr:String!) {
+        if let url = NSURL(string:urlStr){
+            UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
         }
     }
     
@@ -36,7 +54,6 @@ class DetailsViewController: UIViewController {
         
         if let concertDataToDisplay = concertData {
             eventTitle.text = concertDataToDisplay.title
-            
         }
     }
     

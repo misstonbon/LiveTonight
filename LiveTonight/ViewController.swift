@@ -175,7 +175,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                 let events = data.resultsPage.results.event;
                 
                 for event in events {
-                    let eventPin = Concert(title: event.displayName, locationName: event.venue.displayName, coordinate: CLLocationCoordinate2D(latitude: event.location.lat!, longitude: event.location.lng!))
+                    let eventPin = Concert(title: event.displayName, locationName: event.venue.displayName, coordinate: CLLocationCoordinate2D(latitude: event.location.lat!, longitude: event.location.lng!), linkToTickets: event.uri)
                     
                     self.eventPins.append(eventPin)
                 }

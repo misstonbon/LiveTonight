@@ -127,6 +127,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     
     @IBOutlet weak var map: MKMapView!
+    
     let manager = CLLocationManager()  // setting up manager
     
     var currentZip = "98104"

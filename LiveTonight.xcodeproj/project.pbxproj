@@ -12,6 +12,18 @@
 		CB19B63A2009471D006EE3E4 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = CB19B6392009471D006EE3E4 /* back.png */; };
 		CB19B63C20094A81006EE3E4 /* livetinight.png in Resources */ = {isa = PBXBuildFile; fileRef = CB19B63B20094A81006EE3E4 /* livetinight.png */; };
 		CB19B63E20094C1E006EE3E4 /* launchpin.png in Resources */ = {isa = PBXBuildFile; fileRef = CB19B63D20094C1E006EE3E4 /* launchpin.png */; };
+		CB19B64B2009F298006EE3E4 /* share_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = CB19B63F2009F296006EE3E4 /* share_facebook.png */; };
+		CB19B64C2009F298006EE3E4 /* musicspot_bkgd1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB19B6402009F296006EE3E4 /* musicspot_bkgd1.png */; };
+		CB19B64D2009F298006EE3E4 /* musicspot_btn_back1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB19B6412009F297006EE3E4 /* musicspot_btn_back1.png */; };
+		CB19B64E2009F298006EE3E4 /* musicspot_app_pin3.png in Resources */ = {isa = PBXBuildFile; fileRef = CB19B6422009F297006EE3E4 /* musicspot_app_pin3.png */; };
+		CB19B64F2009F298006EE3E4 /* musicspot_btn_fb1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB19B6432009F297006EE3E4 /* musicspot_btn_fb1.png */; };
+		CB19B6502009F298006EE3E4 /* musicspot_btn_jkd1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB19B6442009F297006EE3E4 /* musicspot_btn_jkd1.png */; };
+		CB19B6512009F298006EE3E4 /* musicspot_btn_sk1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB19B6452009F297006EE3E4 /* musicspot_btn_sk1.png */; };
+		CB19B6522009F298006EE3E4 /* share_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = CB19B6462009F297006EE3E4 /* share_twitter.png */; };
+		CB19B6532009F298006EE3E4 /* musicspot_app_icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = CB19B6472009F297006EE3E4 /* musicspot_app_icon3.png */; };
+		CB19B6542009F298006EE3E4 /* musicspot_app_pin4.png in Resources */ = {isa = PBXBuildFile; fileRef = CB19B6482009F298006EE3E4 /* musicspot_app_pin4.png */; };
+		CB19B6552009F298006EE3E4 /* musicspot_btn_twr1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB19B6492009F298006EE3E4 /* musicspot_btn_twr1.png */; };
+		CB19B6562009F298006EE3E4 /* musicspot_app_home1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB19B64A2009F298006EE3E4 /* musicspot_app_home1.png */; };
 		CBBFAC862007EABD0028FDB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFAC852007EABD0028FDB2 /* AppDelegate.swift */; };
 		CBBFAC882007EABD0028FDB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFAC872007EABD0028FDB2 /* ViewController.swift */; };
 		CBBFAC8B2007EABD0028FDB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBBFAC892007EABD0028FDB2 /* Main.storyboard */; };
@@ -57,6 +69,18 @@
 		CB19B6392009471D006EE3E4 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		CB19B63B20094A81006EE3E4 /* livetinight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = livetinight.png; sourceTree = "<group>"; };
 		CB19B63D20094C1E006EE3E4 /* launchpin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchpin.png; sourceTree = "<group>"; };
+		CB19B63F2009F296006EE3E4 /* share_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share_facebook.png; path = ../../share_facebook.png; sourceTree = "<group>"; };
+		CB19B6402009F296006EE3E4 /* musicspot_bkgd1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicspot_bkgd1.png; sourceTree = "<group>"; };
+		CB19B6412009F297006EE3E4 /* musicspot_btn_back1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicspot_btn_back1.png; sourceTree = "<group>"; };
+		CB19B6422009F297006EE3E4 /* musicspot_app_pin3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicspot_app_pin3.png; sourceTree = "<group>"; };
+		CB19B6432009F297006EE3E4 /* musicspot_btn_fb1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicspot_btn_fb1.png; sourceTree = "<group>"; };
+		CB19B6442009F297006EE3E4 /* musicspot_btn_jkd1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicspot_btn_jkd1.png; sourceTree = "<group>"; };
+		CB19B6452009F297006EE3E4 /* musicspot_btn_sk1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicspot_btn_sk1.png; sourceTree = "<group>"; };
+		CB19B6462009F297006EE3E4 /* share_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share_twitter.png; path = ../../share_twitter.png; sourceTree = "<group>"; };
+		CB19B6472009F297006EE3E4 /* musicspot_app_icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicspot_app_icon3.png; sourceTree = "<group>"; };
+		CB19B6482009F298006EE3E4 /* musicspot_app_pin4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicspot_app_pin4.png; sourceTree = "<group>"; };
+		CB19B6492009F298006EE3E4 /* musicspot_btn_twr1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicspot_btn_twr1.png; sourceTree = "<group>"; };
+		CB19B64A2009F298006EE3E4 /* musicspot_app_home1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicspot_app_home1.png; sourceTree = "<group>"; };
 		CBBFAC822007EABD0028FDB2 /* LiveTonight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveTonight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBFAC852007EABD0028FDB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBBFAC872007EABD0028FDB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -144,7 +168,19 @@
 				CB19B63B20094A81006EE3E4 /* livetinight.png */,
 				CB19B63720094596006EE3E4 /* share_twitter.png */,
 				CB19B63D20094C1E006EE3E4 /* launchpin.png */,
+				CB19B64A2009F298006EE3E4 /* musicspot_app_home1.png */,
+				CB19B6472009F297006EE3E4 /* musicspot_app_icon3.png */,
+				CB19B6422009F297006EE3E4 /* musicspot_app_pin3.png */,
+				CB19B6482009F298006EE3E4 /* musicspot_app_pin4.png */,
+				CB19B6402009F296006EE3E4 /* musicspot_bkgd1.png */,
+				CB19B6412009F297006EE3E4 /* musicspot_btn_back1.png */,
+				CB19B6432009F297006EE3E4 /* musicspot_btn_fb1.png */,
+				CB19B6442009F297006EE3E4 /* musicspot_btn_jkd1.png */,
+				CB19B6452009F297006EE3E4 /* musicspot_btn_sk1.png */,
+				CB19B6492009F298006EE3E4 /* musicspot_btn_twr1.png */,
 				CB19B63520094591006EE3E4 /* share_facebook.png */,
+				CB19B63F2009F296006EE3E4 /* share_facebook.png */,
+				CB19B6462009F297006EE3E4 /* share_twitter.png */,
 				CBBFACD7200811510028FDB2 /* smallestpin.png */,
 				CBBFACCF200811450028FDB2 /* pinpicture.png */,
 				CBBFACD1200811450028FDB2 /* pinpicturesmall.png */,
@@ -294,9 +330,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBBFACC62007FD0A0028FDB2 /* mapPin.png in Resources */,
+				CB19B6512009F298006EE3E4 /* musicspot_btn_sk1.png in Resources */,
 				CBBFAC902007EABD0028FDB2 /* LaunchScreen.storyboard in Resources */,
 				CB19B63E20094C1E006EE3E4 /* launchpin.png in Resources */,
 				CBBFACDC2008164C0028FDB2 /* background.png in Resources */,
+				CB19B64B2009F298006EE3E4 /* share_facebook.png in Resources */,
+				CB19B6542009F298006EE3E4 /* musicspot_app_pin4.png in Resources */,
+				CB19B64E2009F298006EE3E4 /* musicspot_app_pin3.png in Resources */,
 				CB19B63C20094A81006EE3E4 /* livetinight.png in Resources */,
 				CB19B63620094591006EE3E4 /* share_facebook.png in Resources */,
 				CB19B63820094596006EE3E4 /* share_twitter.png in Resources */,
@@ -305,12 +345,20 @@
 				CBBFACD8200811510028FDB2 /* smallestpin.png in Resources */,
 				CBBFACD6200811450028FDB2 /* pinpicturesmall.png in Resources */,
 				CBBFACD3200811450028FDB2 /* pin.png in Resources */,
+				CB19B6562009F298006EE3E4 /* musicspot_app_home1.png in Resources */,
+				CB19B64C2009F298006EE3E4 /* musicspot_bkgd1.png in Resources */,
 				CBBFACD4200811450028FDB2 /* pinpicture.png in Resources */,
+				CB19B6552009F298006EE3E4 /* musicspot_btn_twr1.png in Resources */,
 				CBBFAC8B2007EABD0028FDB2 /* Main.storyboard in Resources */,
 				CB19B63A2009471D006EE3E4 /* back.png in Resources */,
+				CB19B6522009F298006EE3E4 /* share_twitter.png in Resources */,
 				CBBFACD2200811450028FDB2 /* powered-by-songkick-pink.png in Resources */,
+				CB19B64D2009F298006EE3E4 /* musicspot_btn_back1.png in Resources */,
+				CB19B6502009F298006EE3E4 /* musicspot_btn_jkd1.png in Resources */,
+				CB19B64F2009F298006EE3E4 /* musicspot_btn_fb1.png in Resources */,
 				CBBFACDA200811550028FDB2 /* mapPin.png in Resources */,
 				CBBFACCC200802400028FDB2 /* secrets.plist in Resources */,
+				CB19B6532009F298006EE3E4 /* musicspot_app_icon3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

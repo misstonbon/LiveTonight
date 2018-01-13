@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,41 +18,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="launchpin.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jbf-zN-W9r">
-                                <rect key="frame" x="67" y="190" width="240" height="286"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="Jbf-zN-W9r" secondAttribute="height" multiplier="120:143" id="NKG-UL-QAI"/>
-                                    <constraint firstAttribute="height" constant="286" id="WqN-cT-LxF"/>
-                                    <constraint firstAttribute="width" constant="240" id="n0d-hN-NjP"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="musicspot_app_home1.png" translatesAutoresizingMaskIntoConstraints="NO" id="TaK-U0-MiD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="by Tanja Stroble" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUj-WI-avs">
-                                <rect key="frame" x="50" y="558" width="284" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Live Tonight " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e4w-Dc-vE6">
-                                <rect key="frame" x="49" y="63" width="285" height="47"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="e4w-Dc-vE6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="49" id="14V-6q-C8w"/>
-                            <constraint firstItem="Jbf-zN-W9r" firstAttribute="top" secondItem="e4w-Dc-vE6" secondAttribute="bottom" constant="80" id="897-dq-dhI"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="e4w-Dc-vE6" secondAttribute="trailing" constant="41" id="A3Y-MG-TDN"/>
-                            <constraint firstItem="Jbf-zN-W9r" firstAttribute="top" secondItem="e4w-Dc-vE6" secondAttribute="bottom" constant="80" id="R1d-Ol-WFW"/>
-                            <constraint firstItem="Jbf-zN-W9r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="W0Q-lb-E9u"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jbf-zN-W9r" secondAttribute="trailing" constant="68" id="hBw-lh-fId"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aUj-WI-avs" secondAttribute="trailing" constant="41" id="k7m-Tt-UGQ"/>
-                            <constraint firstItem="aUj-WI-avs" firstAttribute="top" secondItem="Jbf-zN-W9r" secondAttribute="bottom" constant="82" id="qp0-oJ-KoZ"/>
-                            <constraint firstItem="e4w-Dc-vE6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="43" id="wuN-5Z-5Bp"/>
-                            <constraint firstItem="aUj-WI-avs" firstAttribute="top" secondItem="Jbf-zN-W9r" secondAttribute="bottom" constant="82" id="xWG-ee-T93"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aUj-WI-avs" secondAttribute="bottom" constant="82" id="z65-9p-F4u"/>
-                            <constraint firstItem="aUj-WI-avs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="zA7-5E-EHt"/>
+                            <constraint firstItem="TaK-U0-MiD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3WK-MD-wUM"/>
+                            <constraint firstItem="TaK-U0-MiD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3XS-rW-0ol"/>
+                            <constraint firstItem="TaK-U0-MiD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="CpJ-4z-T1d"/>
+                            <constraint firstItem="TaK-U0-MiD" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="oH0-oP-lPb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -64,6 +38,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="launchpin.png" width="630" height="745"/>
+        <image name="musicspot_app_home1.png" width="1080" height="1920"/>
     </resources>
 </document>

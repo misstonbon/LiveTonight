@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="sXE-Nq-nfw">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
                         </subviews>
@@ -34,7 +33,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="125.59999999999999" y="145.27736131934034"/>
+            <point key="canvasLocation" x="123.75" y="144.71830985915494"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="SnI-fv-HVW">
@@ -47,83 +46,57 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="musicspot_bkgd1.png" translatesAutoresizingMaskIntoConstraints="NO" id="YM1-Xf-9DA">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6G0-4D-dOE">
-                                <rect key="frame" x="41" y="440" width="240" height="72"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="72" id="DeJ-Ux-V0H"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6G0-4D-dOE">
+                                <rect key="frame" x="41" y="386" width="251" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="musicspot_btn_sk1.png"/>
                                 <connections>
                                     <action selector="toTickets:" destination="Duc-8C-ctg" eventType="touchUpInside" id="qNZ-ql-9lO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDp-sy-k7Q">
-                                <rect key="frame" x="39" y="372" width="242" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="prC-kb-5U7"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDp-sy-k7Q">
+                                <rect key="frame" x="39" y="312" width="253" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="musicspot_btn_fb1.png"/>
                                 <connections>
                                     <action selector="shareFacebook:" destination="Duc-8C-ctg" eventType="touchUpInside" id="1do-rc-FhQ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ceJ-Xy-32u">
-                                <rect key="frame" x="16" y="139" width="288" height="103"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ceJ-Xy-32u">
+                                <rect key="frame" x="16" y="103" width="288" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="19"/>
                                 <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4N-si-oMg">
-                                <rect key="frame" x="103" y="589" width="163" height="38"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4N-si-oMg">
+                                <rect key="frame" x="215" y="521" width="89" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="musicspot_btn_jkd1.png"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXf-5F-oU6">
-                                <rect key="frame" x="41" y="307" width="238" height="49"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="49" id="aH6-ZG-TAE"/>
-                                </constraints>
-                                <state key="normal" title="Button" image="musicspot_btn_twr1.png"/>
-                                <connections>
-                                    <action selector="shareTwitter:" destination="Duc-8C-ctg" eventType="touchUpInside" id="6Sm-cQ-Q5P"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntC-ea-74v">
-                                <rect key="frame" x="83" y="20" width="163" height="92"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="92" id="gXC-Er-WiT"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntC-ea-74v">
+                                <rect key="frame" x="102" y="20" width="116" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="musicspot_btn_back1.png"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" identifier="back" id="2kc-RG-UQn"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXf-5F-oU6">
+                                <rect key="frame" x="41" y="249" width="251" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="musicspot_btn_twr1.png"/>
+                                <connections>
+                                    <action selector="shareTwitter:" destination="Duc-8C-ctg" eventType="touchUpInside" id="6Sm-cQ-Q5P"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="y4N-si-oMg" firstAttribute="leading" secondItem="67x-s0-aXx" secondAttribute="leadingMargin" constant="87" id="03T-cj-VG1"/>
-                            <constraint firstItem="8j1-Kk-hms" firstAttribute="bottom" secondItem="6G0-4D-dOE" secondAttribute="bottom" constant="56" id="1e8-gr-GNo"/>
-                            <constraint firstItem="YM1-Xf-9DA" firstAttribute="centerX" secondItem="ceJ-Xy-32u" secondAttribute="centerX" id="6GB-t0-xFo"/>
-                            <constraint firstItem="YM1-Xf-9DA" firstAttribute="bottom" secondItem="8j1-Kk-hms" secondAttribute="bottom" id="8uF-PQ-2pT"/>
-                            <constraint firstItem="SXf-5F-oU6" firstAttribute="top" secondItem="ceJ-Xy-32u" secondAttribute="bottom" constant="65" id="A9c-Cr-NeL"/>
-                            <constraint firstItem="y4N-si-oMg" firstAttribute="top" secondItem="YM1-Xf-9DA" secondAttribute="bottom" constant="21" id="C6p-uH-Lrl"/>
-                            <constraint firstItem="yDp-sy-k7Q" firstAttribute="trailing" secondItem="6G0-4D-dOE" secondAttribute="trailing" id="CWJ-0h-ddl"/>
-                            <constraint firstItem="yDp-sy-k7Q" firstAttribute="leading" secondItem="8j1-Kk-hms" secondAttribute="leading" constant="39" id="Ca9-oR-fNB"/>
-                            <constraint firstItem="yDp-sy-k7Q" firstAttribute="top" secondItem="SXf-5F-oU6" secondAttribute="bottom" constant="16" id="HVX-rI-V7l"/>
-                            <constraint firstItem="SXf-5F-oU6" firstAttribute="leading" secondItem="6G0-4D-dOE" secondAttribute="leading" id="J5C-5d-smo"/>
-                            <constraint firstItem="YM1-Xf-9DA" firstAttribute="centerX" secondItem="yDp-sy-k7Q" secondAttribute="centerX" id="Jlk-RF-oHv"/>
-                            <constraint firstItem="8j1-Kk-hms" firstAttribute="trailing" secondItem="ntC-ea-74v" secondAttribute="trailing" constant="74" id="Ken-Dt-IAe"/>
-                            <constraint firstItem="YM1-Xf-9DA" firstAttribute="top" secondItem="67x-s0-aXx" secondAttribute="top" id="M0B-mv-Apd"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="y4N-si-oMg" secondAttribute="trailing" constant="38" id="NMl-32-T3L"/>
-                            <constraint firstItem="ceJ-Xy-32u" firstAttribute="leading" secondItem="67x-s0-aXx" secondAttribute="leadingMargin" id="VJG-u1-Bi1"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="y4N-si-oMg" secondAttribute="bottom" constant="-59" id="YMF-RG-G1A"/>
-                            <constraint firstItem="ceJ-Xy-32u" firstAttribute="top" secondItem="ntC-ea-74v" secondAttribute="bottom" constant="27" id="Zmd-D1-jg6"/>
-                            <constraint firstItem="YM1-Xf-9DA" firstAttribute="centerX" secondItem="SXf-5F-oU6" secondAttribute="centerX" id="eTg-mD-Bl9"/>
-                            <constraint firstItem="SXf-5F-oU6" firstAttribute="leading" secondItem="8j1-Kk-hms" secondAttribute="leading" constant="41" id="gPf-2J-8pV"/>
-                            <constraint firstItem="6G0-4D-dOE" firstAttribute="top" secondItem="yDp-sy-k7Q" secondAttribute="bottom" constant="18" id="jnC-di-gLc"/>
-                            <constraint firstItem="ntC-ea-74v" firstAttribute="top" secondItem="8j1-Kk-hms" secondAttribute="top" id="kWp-0R-cNW"/>
-                            <constraint firstAttribute="trailing" secondItem="YM1-Xf-9DA" secondAttribute="trailing" id="q47-fn-LYs"/>
-                            <constraint firstItem="ntC-ea-74v" firstAttribute="leading" secondItem="8j1-Kk-hms" secondAttribute="leading" constant="83" id="s9k-gR-quP"/>
-                            <constraint firstItem="YM1-Xf-9DA" firstAttribute="leading" secondItem="67x-s0-aXx" secondAttribute="leading" id="y5V-qc-KNO"/>
+                            <constraint firstItem="YM1-Xf-9DA" firstAttribute="trailing" secondItem="8j1-Kk-hms" secondAttribute="trailing" id="8Y2-us-yPu"/>
+                            <constraint firstItem="YM1-Xf-9DA" firstAttribute="top" secondItem="67x-s0-aXx" secondAttribute="top" id="XdE-yz-Abh"/>
+                            <constraint firstItem="YM1-Xf-9DA" firstAttribute="bottom" secondItem="8j1-Kk-hms" secondAttribute="bottom" id="ZQL-gb-Nar"/>
+                            <constraint firstItem="YM1-Xf-9DA" firstAttribute="leading" secondItem="8j1-Kk-hms" secondAttribute="leading" id="gaK-R6-Nhc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8j1-Kk-hms"/>
                     </view>
@@ -146,6 +119,6 @@
         <image name="musicspot_btn_twr1.png" width="834" height="173"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="WZ8-g0-6Ke"/>
+        <segue reference="2kc-RG-UQn"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -122,7 +122,6 @@ struct State: Decodable {
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
-    
     //////////////// MAP /////////////////////////////////////
     
     
@@ -147,15 +146,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "YYYY-MM-DD"
         let today = dateFormatter.string(from: now)
-        print("Today's date:")
-        print(today)
         
         let songKickUrl = "http://api.songkick.com/api/3.0/events.json?apikey=\(String(describing: songKickKey))&min_date=\(today)&max_date=\(today)&location=geo:\(currentLat),\(currentLong)"
-        
-        print("Songkick url: =====================")
-        print(songKickUrl)
-        
-        
+ 
         guard let url = URL(string: songKickUrl) else {return}
         
         URLSession.shared.dataTask(with: url) {(data, response, err) in
@@ -267,7 +260,7 @@ extension ViewController : MKMapViewDelegate
                 view = dequeuedView
             } else {
                 view = MKAnnotationView(annotation: annotation, reuseIdentifier: identifier)
-                view.image = UIImage(named: "smallestpin")
+                view.image = UIImage(named: "mappin")
                 view.canShowCallout = true
                 // view.animatesDrop = true
                 view.calloutOffset = CGPoint(x: -5, y: 5)

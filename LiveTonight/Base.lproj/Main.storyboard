@@ -18,12 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="sXE-Nq-nfw">
-                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="sXE-Nq-nfw">
+                                <rect key="frame" x="0.0" y="20" width="375" height="548"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="sXE-Nq-nfw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2fE-kc-U4V"/>
+                            <constraint firstItem="sXE-Nq-nfw" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Cy5-xb-39h"/>
+                            <constraint firstItem="sXE-Nq-nfw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="T40-kl-CdH"/>
+                            <constraint firstItem="sXE-Nq-nfw" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="XDo-KB-Lti"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
@@ -33,7 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="123.75" y="144.71830985915494"/>
+            <point key="canvasLocation" x="122.40000000000001" y="144.3778110944528"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="SnI-fv-HVW">
@@ -63,7 +68,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntC-ea-74v">
-                                <rect key="frame" x="105" y="20" width="164" height="84"/>
+                                <rect key="frame" x="104" y="20" width="164" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="musicspot_btn_back1.png"/>
                                 <connections>
@@ -85,6 +90,9 @@
                                     <constraint firstAttribute="width" constant="99" id="ckm-EF-5oP"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="musicspot_btn_jkd1.png"/>
+                                <connections>
+                                    <action selector="toJonKay:" destination="Duc-8C-ctg" eventType="touchUpInside" id="FsT-Cb-7fc"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ceJ-Xy-32u">
                                 <rect key="frame" x="25" y="125" width="325" height="150"/>

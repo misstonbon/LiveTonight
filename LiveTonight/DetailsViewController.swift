@@ -23,6 +23,10 @@ class DetailsViewController: UIViewController {
         openTicketsUrl(urlStr: concertData?.linkToTickets )
     }
     
+    @IBAction func toJonKay(_ sender: Any) {
+        openJonKayTwitter(urlStr: "http://www.twitter.com/thejonkay" )
+    }
+    
     @IBAction func shareTwitter(_ sender: Any) {
         shareOnTwitter(urlStr: "http://www.twitter.com" )
     }
@@ -34,6 +38,12 @@ class DetailsViewController: UIViewController {
     func openTicketsUrl(urlStr:String!) {
         if let url = NSURL(string:urlStr){
         UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
+        }
+    }
+    
+    func openJonKayTwitter(urlStr:String!) {
+        if let url = NSURL(string:urlStr){
+            UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
         }
     }
     

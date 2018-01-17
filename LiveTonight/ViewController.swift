@@ -272,7 +272,7 @@ extension ViewController : MKMapViewDelegate
     }
     
     //////////////// TAPPING INFO BUTTON CONTROLS ////////////////////////////
-    
+    // MARK: - info button controls
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl)
     {
         // this is the event pin containing all data relevant to DetailViewController !

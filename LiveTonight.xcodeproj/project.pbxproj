@@ -28,7 +28,7 @@
 		CBBFACA62007EABD0028FDB2 /* LiveTonightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFACA52007EABD0028FDB2 /* LiveTonightUITests.swift */; };
 		CBBFACB52007EB230028FDB2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBFACB42007EB230028FDB2 /* CoreLocation.framework */; };
 		CBBFACB82007EBD50028FDB2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFACB72007EBD50028FDB2 /* DetailsViewController.swift */; };
-		CBBFACBB2007EC0A0028FDB2 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFACBA2007EC0A0028FDB2 /* Events.swift */; };
+		CBBFACBB2007EC0A0028FDB2 /* Concert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFACBA2007EC0A0028FDB2 /* Concert.swift */; };
 		CBBFACCC200802400028FDB2 /* secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACCB200802400028FDB2 /* secrets.plist */; };
 /* End PBXBuildFile section */
 
@@ -76,7 +76,7 @@
 		CBBFACA52007EABD0028FDB2 /* LiveTonightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTonightUITests.swift; sourceTree = "<group>"; };
 		CBBFACB42007EB230028FDB2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		CBBFACB72007EBD50028FDB2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		CBBFACBA2007EC0A0028FDB2 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		CBBFACBA2007EC0A0028FDB2 /* Concert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concert.swift; sourceTree = "<group>"; };
 		CBBFACCB200802400028FDB2 /* secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = secrets.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,7 +146,7 @@
 				CB19B6492009F298006EE3E4 /* musicspot_btn_twr1.png */,
 				CBBFAC872007EABD0028FDB2 /* ViewController.swift */,
 				CBBFAC892007EABD0028FDB2 /* Main.storyboard */,
-				CBBFACBA2007EC0A0028FDB2 /* Events.swift */,
+				CBBFACBA2007EC0A0028FDB2 /* Concert.swift */,
 				CBBFACB72007EBD50028FDB2 /* DetailsViewController.swift */,
 				CBBFAC8C2007EABD0028FDB2 /* Assets.xcassets */,
 				CBBFAC8E2007EABD0028FDB2 /* LaunchScreen.storyboard */,
@@ -327,7 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBBFACBB2007EC0A0028FDB2 /* Events.swift in Sources */,
+				CBBFACBB2007EC0A0028FDB2 /* Concert.swift in Sources */,
 				CBBFAC882007EABD0028FDB2 /* ViewController.swift in Sources */,
 				CBBFAC862007EABD0028FDB2 /* AppDelegate.swift in Sources */,
 				CBBFACB82007EBD50028FDB2 /* DetailsViewController.swift in Sources */,

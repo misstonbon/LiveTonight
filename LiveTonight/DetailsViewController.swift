@@ -66,7 +66,7 @@ class DetailsViewController: UIViewController {
         if let concertDataToDisplay = concertData {
             eventTextView.text = concertDataToDisplay.title
         } else {
-            eventTextView.text = "We're both adults. I can't pretend I don't know that person is you. I want there to be no confusion. I know I owe you my life. And more than that, I respect the strategy. In your position, I would have done the same."
+            eventTextView.text = "Etizzle i saw beyonces tizzles and my pizzle went crizzle urna izzle nisl. Away quis arcu. Shiz pulvinar, ipsum check it out malesuada check it out, nulla phat euismizzle felis, brizzle luctus metizzle shiznit et boom shackalack. Vivamizzle ullamcorpizzle, ma nizzle we gonna chung uhuh ... yih! , nibh nunc izzle ass, izzle gangsta leo elit the bizzle dolor. Mauris own yo', orci vel go to hizzle shizznit, sizzle fo shizzle luctizzle uhuh ... yih!, izzle get down get down enizzle izzle nisl. Nullam a velizzle yo orci mammasay mammasa mamma oo sa . Gizzle nizzle go to hizzle."
         }
     }
     
@@ -75,7 +75,7 @@ class DetailsViewController: UIViewController {
         if let concertDataToDisplay = concertData {
             eventTextView.text = concertDataToDisplay.title
         } else {
-            eventTextView.text = "We're both adults. I can't pretend I don't know that person is you. I want there to be no confusion. I know I owe you my life. And more than that, I respect the strategy. In your position, I would have done the same."
+            eventTextView.text = "Etizzle i saw beyonces tizzles and my pizzle went crizzle urna izzle nisl. Away quis arcu. Shiz pulvinar, ipsum check it out malesuada check it out, nulla phat euismizzle felis, brizzle luctus metizzle shiznit et boom shackalack. Vivamizzle ullamcorpizzle, ma nizzle we gonna chung uhuh ... yih! , nibh nunc izzle ass, izzle gangsta leo elit the bizzle dolor. Mauris own yo', orci vel go to hizzle shizznit, sizzle fo shizzle luctizzle uhuh ... yih!, izzle get down get down enizzle izzle nisl. Nullam a velizzle yo orci mammasay mammasa mamma oo sa. Gizzle nizzle go to hizzle."
         }
     }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Duc-8C-ctg">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,19 +15,23 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LiveTonight" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="sXE-Nq-nfw">
-                                <rect key="frame" x="0.0" y="20" width="375" height="548"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="sXE-Nq-nfw">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="sXE-Nq-nfw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2fE-kc-U4V"/>
+                            <constraint firstItem="sXE-Nq-nfw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="4JN-0y-5wP"/>
                             <constraint firstItem="sXE-Nq-nfw" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Cy5-xb-39h"/>
+                            <constraint firstItem="sXE-Nq-nfw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="G0r-eh-9W1"/>
+                            <constraint firstItem="sXE-Nq-nfw" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="HHL-is-rVu"/>
                             <constraint firstItem="sXE-Nq-nfw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="T40-kl-CdH"/>
                             <constraint firstItem="sXE-Nq-nfw" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="XDo-KB-Lti"/>
+                            <constraint firstItem="sXE-Nq-nfw" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="faA-Ie-1ZI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -38,65 +42,79 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="122.40000000000001" y="144.3778110944528"/>
+            <point key="canvasLocation" x="121.875" y="143.66197183098592"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="SnI-fv-HVW">
             <objects>
                 <viewController id="Duc-8C-ctg" customClass="DetailsViewController" customModule="LiveTonight" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="67x-s0-aXx">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="musicspot_bkgd1.png" translatesAutoresizingMaskIntoConstraints="NO" id="YM1-Xf-9DA">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6G0-4D-dOE">
-                                <rect key="frame" x="42" y="455" width="290" height="84"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6G0-4D-dOE">
+                                <rect key="frame" x="22" y="429" width="282" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="79" id="9xj-eF-5j1"/>
+                                    <constraint firstAttribute="height" constant="79" id="SUA-MX-r6U"/>
+                                </constraints>
                                 <state key="normal" title="Button" image="musicspot_btn_sk1.png"/>
                                 <connections>
                                     <action selector="toTickets:" destination="Duc-8C-ctg" eventType="touchUpInside" id="qNZ-ql-9lO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDp-sy-k7Q">
-                                <rect key="frame" x="42" y="374" width="290" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDp-sy-k7Q">
+                                <rect key="frame" x="22" y="363" width="282" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="3vf-Wh-WAE"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="58" id="k4B-0w-sJq"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="58" id="pJ7-PL-xu8"/>
+                                </constraints>
                                 <state key="normal" title="Button" image="musicspot_btn_fb1.png"/>
                                 <connections>
                                     <action selector="shareFacebook:" destination="Duc-8C-ctg" eventType="touchUpInside" id="1do-rc-FhQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntC-ea-74v">
-                                <rect key="frame" x="104" y="20" width="164" height="84"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="musicspot_btn_back1.png"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="back" id="2kc-RG-UQn"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXf-5F-oU6">
-                                <rect key="frame" x="42" y="301" width="290" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXf-5F-oU6">
+                                <rect key="frame" x="22" y="303" width="282" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="xZx-SG-vQX"/>
+                                </constraints>
                                 <state key="normal" title="Button" image="musicspot_btn_twr1.png"/>
                                 <connections>
                                     <action selector="shareTwitter:" destination="Duc-8C-ctg" eventType="touchUpInside" id="6Sm-cQ-Q5P"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4N-si-oMg">
-                                <rect key="frame" x="251" y="604" width="99" height="33"/>
+                                <rect key="frame" x="260" y="524" width="44" height="24"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="33" id="96g-ph-mm7"/>
-                                    <constraint firstAttribute="width" constant="99" id="ckm-EF-5oP"/>
+                                    <constraint firstAttribute="height" constant="24" id="Guu-RB-sXc"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="44" id="RQZ-kv-wPB"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="musicspot_btn_jkd1.png"/>
                                 <connections>
                                     <action selector="toJonKay:" destination="Duc-8C-ctg" eventType="touchUpInside" id="FsT-Cb-7fc"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ceJ-Xy-32u">
-                                <rect key="frame" x="25" y="125" width="325" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntC-ea-74v">
+                                <rect key="frame" x="105" y="20" width="96" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="gL6-rm-XNU"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="96" id="tEq-vr-0Of"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="musicspot_btn_back1.png"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="back" id="2kc-RG-UQn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ceJ-Xy-32u">
+                                <rect key="frame" x="22" y="113" width="282" height="174"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="282" id="hoY-gx-sZP"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="19"/>
                                 <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
@@ -104,12 +122,29 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="YM1-Xf-9DA" firstAttribute="bottom" secondItem="8j1-Kk-hms" secondAttribute="bottom" id="4MW-O7-RZN"/>
-                            <constraint firstItem="YM1-Xf-9DA" firstAttribute="trailing" secondItem="8j1-Kk-hms" secondAttribute="trailing" id="4T7-Nc-WeC"/>
-                            <constraint firstItem="8j1-Kk-hms" firstAttribute="trailing" secondItem="y4N-si-oMg" secondAttribute="trailing" constant="25" id="IbH-0n-azs"/>
-                            <constraint firstItem="8j1-Kk-hms" firstAttribute="bottom" secondItem="y4N-si-oMg" secondAttribute="bottom" constant="30" id="Zaa-PP-sKg"/>
-                            <constraint firstItem="YM1-Xf-9DA" firstAttribute="top" secondItem="67x-s0-aXx" secondAttribute="top" id="dy9-wn-uFo"/>
-                            <constraint firstItem="YM1-Xf-9DA" firstAttribute="leading" secondItem="8j1-Kk-hms" secondAttribute="leading" id="zm7-wg-lGt"/>
+                            <constraint firstItem="8j1-Kk-hms" firstAttribute="trailing" secondItem="y4N-si-oMg" secondAttribute="trailing" constant="16" id="5Wr-pX-Fh9"/>
+                            <constraint firstItem="yDp-sy-k7Q" firstAttribute="leading" secondItem="8j1-Kk-hms" secondAttribute="leading" constant="22" id="6mn-mm-Ud5"/>
+                            <constraint firstItem="6G0-4D-dOE" firstAttribute="leading" secondItem="8j1-Kk-hms" secondAttribute="leading" constant="22" id="CSd-Jn-qGD"/>
+                            <constraint firstItem="ceJ-Xy-32u" firstAttribute="leading" secondItem="8j1-Kk-hms" secondAttribute="leading" constant="22" id="CX7-VH-wdA"/>
+                            <constraint firstItem="6G0-4D-dOE" firstAttribute="top" secondItem="yDp-sy-k7Q" secondAttribute="bottom" constant="8" id="Edw-jx-Kh6"/>
+                            <constraint firstItem="8j1-Kk-hms" firstAttribute="trailing" secondItem="ceJ-Xy-32u" secondAttribute="trailing" constant="16" id="GD7-2q-fpy"/>
+                            <constraint firstItem="y4N-si-oMg" firstAttribute="top" secondItem="6G0-4D-dOE" secondAttribute="bottom" constant="16" id="GzV-lU-3Mt"/>
+                            <constraint firstItem="ntC-ea-74v" firstAttribute="top" secondItem="8j1-Kk-hms" secondAttribute="top" id="JLa-fs-MaS"/>
+                            <constraint firstItem="8j1-Kk-hms" firstAttribute="trailing" secondItem="yDp-sy-k7Q" secondAttribute="trailing" constant="16" id="MOU-NY-jrT"/>
+                            <constraint firstItem="ntC-ea-74v" firstAttribute="top" secondItem="8j1-Kk-hms" secondAttribute="top" id="Nuu-s5-9py"/>
+                            <constraint firstItem="8j1-Kk-hms" firstAttribute="bottom" secondItem="y4N-si-oMg" secondAttribute="bottom" constant="20" id="OCN-0j-y9J"/>
+                            <constraint firstItem="YM1-Xf-9DA" firstAttribute="top" secondItem="67x-s0-aXx" secondAttribute="top" id="SWI-Al-T2M"/>
+                            <constraint firstItem="YM1-Xf-9DA" firstAttribute="leading" secondItem="8j1-Kk-hms" secondAttribute="leading" id="Wbf-gH-eSq"/>
+                            <constraint firstItem="8j1-Kk-hms" firstAttribute="trailing" secondItem="6G0-4D-dOE" secondAttribute="trailing" constant="16" id="aAG-Ba-DIn"/>
+                            <constraint firstItem="YM1-Xf-9DA" firstAttribute="trailing" secondItem="8j1-Kk-hms" secondAttribute="trailing" id="axf-wm-y2J"/>
+                            <constraint firstItem="YM1-Xf-9DA" firstAttribute="bottom" secondItem="8j1-Kk-hms" secondAttribute="bottom" id="bZp-gf-LF2"/>
+                            <constraint firstItem="ceJ-Xy-32u" firstAttribute="top" secondItem="ntC-ea-74v" secondAttribute="bottom" constant="18" id="dKc-KA-DT7"/>
+                            <constraint firstItem="y4N-si-oMg" firstAttribute="leading" secondItem="8j1-Kk-hms" secondAttribute="leading" constant="260" id="ffy-Kf-6X7"/>
+                            <constraint firstItem="SXf-5F-oU6" firstAttribute="leading" secondItem="8j1-Kk-hms" secondAttribute="leading" constant="22" id="hgp-Rm-VRA"/>
+                            <constraint firstItem="SXf-5F-oU6" firstAttribute="top" secondItem="ceJ-Xy-32u" secondAttribute="bottom" constant="16" id="hxt-Lz-Bhl"/>
+                            <constraint firstItem="8j1-Kk-hms" firstAttribute="trailing" secondItem="SXf-5F-oU6" secondAttribute="trailing" constant="16" id="jOd-co-mZm"/>
+                            <constraint firstItem="yDp-sy-k7Q" firstAttribute="top" secondItem="SXf-5F-oU6" secondAttribute="bottom" constant="7" id="q9m-H7-UjZ"/>
+                            <constraint firstItem="ntC-ea-74v" firstAttribute="centerX" secondItem="67x-s0-aXx" secondAttribute="centerX" constant="-7" id="y6A-8z-Gmm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8j1-Kk-hms"/>
                     </view>
@@ -120,7 +155,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1M7-pt-zdL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="960.79999999999995" y="138.98050974512745"/>
+            <point key="canvasLocation" x="960" y="138.38028169014083"/>
         </scene>
     </scenes>
     <resources>

@@ -64,7 +64,17 @@ class DetailsViewController: UIViewController {
         
         if let concertDataToDisplay = concertData {
             eventTitle.text = concertDataToDisplay.title
+        } else {
+            eventTitle.text = "We're both adults. I can't pretend I don't know that person is you. I want there to be no confusion. I know I owe you my life. And more than that, I respect the strategy. In your position, I would have done the same."
         }
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        if let concertDataToDisplay = concertData {
+            eventTitle.text = concertDataToDisplay.title
+        } else {
+            eventTitle.text = "We're both adults. I can't pretend I don't know that person is you. I want there to be no confusion. I know I owe you my life. And more than that, I respect the strategy. In your position, I would have done the same."
+        }
+    }
 }

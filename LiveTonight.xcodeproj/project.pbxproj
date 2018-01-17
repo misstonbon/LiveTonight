@@ -18,6 +18,7 @@
 		CB19B6552009F298006EE3E4 /* musicspot_btn_twr1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB19B6492009F298006EE3E4 /* musicspot_btn_twr1.png */; };
 		CB19B6562009F298006EE3E4 /* musicspot_app_home1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB19B64A2009F298006EE3E4 /* musicspot_app_home1.png */; };
 		CB21B80C200E87450019BFB0 /* mappin.png in Resources */ = {isa = PBXBuildFile; fileRef = CB21B80B200E87450019BFB0 /* mappin.png */; };
+		CB21B80E200FED4C0019BFB0 /* mappin.png in Resources */ = {isa = PBXBuildFile; fileRef = CB21B80D200FED4C0019BFB0 /* mappin.png */; };
 		CBBFAC862007EABD0028FDB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFAC852007EABD0028FDB2 /* AppDelegate.swift */; };
 		CBBFAC882007EABD0028FDB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFAC872007EABD0028FDB2 /* ViewController.swift */; };
 		CBBFAC8B2007EABD0028FDB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBBFAC892007EABD0028FDB2 /* Main.storyboard */; };
@@ -29,8 +30,6 @@
 		CBBFACB82007EBD50028FDB2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFACB72007EBD50028FDB2 /* DetailsViewController.swift */; };
 		CBBFACBB2007EC0A0028FDB2 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFACBA2007EC0A0028FDB2 /* Events.swift */; };
 		CBBFACCC200802400028FDB2 /* secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACCB200802400028FDB2 /* secrets.plist */; };
-		CBBFACD2200811450028FDB2 /* powered-by-songkick-pink.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACCD200811450028FDB2 /* powered-by-songkick-pink.png */; };
-		CBBFACD5200811450028FDB2 /* pinpic.png in Resources */ = {isa = PBXBuildFile; fileRef = CBBFACD0200811450028FDB2 /* pinpic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +61,7 @@
 		CB19B6492009F298006EE3E4 /* musicspot_btn_twr1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicspot_btn_twr1.png; sourceTree = "<group>"; };
 		CB19B64A2009F298006EE3E4 /* musicspot_app_home1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicspot_app_home1.png; sourceTree = "<group>"; };
 		CB21B80B200E87450019BFB0 /* mappin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mappin.png; path = ../../mappin.png; sourceTree = "<group>"; };
+		CB21B80D200FED4C0019BFB0 /* mappin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mappin.png; sourceTree = "<group>"; };
 		CBBFAC822007EABD0028FDB2 /* LiveTonight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveTonight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBFAC852007EABD0028FDB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBBFAC872007EABD0028FDB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,8 +78,6 @@
 		CBBFACB72007EBD50028FDB2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		CBBFACBA2007EC0A0028FDB2 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 		CBBFACCB200802400028FDB2 /* secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = secrets.plist; sourceTree = "<group>"; };
-		CBBFACCD200811450028FDB2 /* powered-by-songkick-pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "powered-by-songkick-pink.png"; path = "../../powered-by-songkick-pink.png"; sourceTree = "<group>"; };
-		CBBFACD0200811450028FDB2 /* pinpic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pinpic.png; path = ../../pinpic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,19 +132,18 @@
 			children = (
 				CBBFACCB200802400028FDB2 /* secrets.plist */,
 				CBBFAC852007EABD0028FDB2 /* AppDelegate.swift */,
-				CBBFACD0200811450028FDB2 /* pinpic.png */,
 				CB19B63B20094A81006EE3E4 /* livetinight.png */,
 				CB19B64A2009F298006EE3E4 /* musicspot_app_home1.png */,
 				CB19B6472009F297006EE3E4 /* musicspot_app_icon3.png */,
 				CB19B6482009F298006EE3E4 /* musicspot_app_pin4.png */,
 				CB19B6402009F296006EE3E4 /* musicspot_bkgd1.png */,
 				CB21B80B200E87450019BFB0 /* mappin.png */,
+				CB21B80D200FED4C0019BFB0 /* mappin.png */,
 				CB19B6412009F297006EE3E4 /* musicspot_btn_back1.png */,
 				CB19B6432009F297006EE3E4 /* musicspot_btn_fb1.png */,
 				CB19B6442009F297006EE3E4 /* musicspot_btn_jkd1.png */,
 				CB19B6452009F297006EE3E4 /* musicspot_btn_sk1.png */,
 				CB19B6492009F298006EE3E4 /* musicspot_btn_twr1.png */,
-				CBBFACCD200811450028FDB2 /* powered-by-songkick-pink.png */,
 				CBBFAC872007EABD0028FDB2 /* ViewController.swift */,
 				CBBFAC892007EABD0028FDB2 /* Main.storyboard */,
 				CBBFACBA2007EC0A0028FDB2 /* Events.swift */,
@@ -295,12 +292,11 @@
 				CB19B6542009F298006EE3E4 /* musicspot_app_pin4.png in Resources */,
 				CB19B63C20094A81006EE3E4 /* livetinight.png in Resources */,
 				CBBFAC8D2007EABD0028FDB2 /* Assets.xcassets in Resources */,
-				CBBFACD5200811450028FDB2 /* pinpic.png in Resources */,
 				CB19B6562009F298006EE3E4 /* musicspot_app_home1.png in Resources */,
 				CB19B64C2009F298006EE3E4 /* musicspot_bkgd1.png in Resources */,
 				CB19B6552009F298006EE3E4 /* musicspot_btn_twr1.png in Resources */,
 				CBBFAC8B2007EABD0028FDB2 /* Main.storyboard in Resources */,
-				CBBFACD2200811450028FDB2 /* powered-by-songkick-pink.png in Resources */,
+				CB21B80E200FED4C0019BFB0 /* mappin.png in Resources */,
 				CB19B64D2009F298006EE3E4 /* musicspot_btn_back1.png in Resources */,
 				CB19B6502009F298006EE3E4 /* musicspot_btn_jkd1.png in Resources */,
 				CB19B64F2009F298006EE3E4 /* musicspot_btn_fb1.png in Resources */,

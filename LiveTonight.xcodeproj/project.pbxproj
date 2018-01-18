@@ -19,6 +19,7 @@
 		CB19B6562009F298006EE3E4 /* musicspot_app_home1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB19B64A2009F298006EE3E4 /* musicspot_app_home1.png */; };
 		CB21B80C200E87450019BFB0 /* mappin.png in Resources */ = {isa = PBXBuildFile; fileRef = CB21B80B200E87450019BFB0 /* mappin.png */; };
 		CB21B80E200FED4C0019BFB0 /* mappin.png in Resources */ = {isa = PBXBuildFile; fileRef = CB21B80D200FED4C0019BFB0 /* mappin.png */; };
+		CB21B810201027390019BFB0 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = CB21B80F201027390019BFB0 /* share.png */; };
 		CBBFAC862007EABD0028FDB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFAC852007EABD0028FDB2 /* AppDelegate.swift */; };
 		CBBFAC882007EABD0028FDB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFAC872007EABD0028FDB2 /* ViewController.swift */; };
 		CBBFAC8B2007EABD0028FDB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBBFAC892007EABD0028FDB2 /* Main.storyboard */; };
@@ -62,6 +63,7 @@
 		CB19B64A2009F298006EE3E4 /* musicspot_app_home1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicspot_app_home1.png; sourceTree = "<group>"; };
 		CB21B80B200E87450019BFB0 /* mappin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mappin.png; path = ../../mappin.png; sourceTree = "<group>"; };
 		CB21B80D200FED4C0019BFB0 /* mappin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mappin.png; sourceTree = "<group>"; };
+		CB21B80F201027390019BFB0 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share.png; path = ../../share.png; sourceTree = "<group>"; };
 		CBBFAC822007EABD0028FDB2 /* LiveTonight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveTonight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBBFAC852007EABD0028FDB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBBFAC872007EABD0028FDB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				CB19B64A2009F298006EE3E4 /* musicspot_app_home1.png */,
 				CB19B6472009F297006EE3E4 /* musicspot_app_icon3.png */,
 				CB19B6482009F298006EE3E4 /* musicspot_app_pin4.png */,
+				CB21B80F201027390019BFB0 /* share.png */,
 				CB19B6402009F296006EE3E4 /* musicspot_bkgd1.png */,
 				CB21B80B200E87450019BFB0 /* mappin.png */,
 				CB21B80D200FED4C0019BFB0 /* mappin.png */,
@@ -297,6 +300,7 @@
 				CB19B6552009F298006EE3E4 /* musicspot_btn_twr1.png in Resources */,
 				CBBFAC8B2007EABD0028FDB2 /* Main.storyboard in Resources */,
 				CB21B80E200FED4C0019BFB0 /* mappin.png in Resources */,
+				CB21B810201027390019BFB0 /* share.png in Resources */,
 				CB19B64D2009F298006EE3E4 /* musicspot_btn_back1.png in Resources */,
 				CB19B6502009F298006EE3E4 /* musicspot_btn_jkd1.png in Resources */,
 				CB19B64F2009F298006EE3E4 /* musicspot_btn_fb1.png in Resources */,

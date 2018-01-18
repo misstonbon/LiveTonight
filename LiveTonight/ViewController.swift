@@ -122,7 +122,7 @@ struct State: Decodable {
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
-    //////////////// MAP /////////////////////////////////////
+//////////////////////////// MAP /////////////////////////////////////
     
     
     @IBOutlet weak var map: MKMapView!
@@ -138,7 +138,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     var eventPin: Concert?
     
-    ////////////////// SONGKICK JSON PARSING FUNCTION   /////////////////////////////////////
+/////////////////////// SONGKICK JSON PARSING FUNCTION   /////////////////////////////////////
     
     func processSongkickData(currentLat: String, currentLong: String ) {
         
@@ -158,7 +158,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             do {
                 let data = try JSONDecoder().decode(ResponseFromSongkick.self, from: data)
                 
-                //// ADD PINS //////
+///////////////////// ADD PINS ///////////////////////////////
                 
                 if self.eventPins.count > 0 {
                     self.map.removeAnnotations(self.eventPins)
@@ -184,7 +184,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             }.resume()
     }
     
-    ////////////////////////////////////   CURRENT LOCATION ///////////////////////////////////
+////////////////////////////////////////   CURRENT LOCATION ///////////////////////////////////
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
@@ -192,7 +192,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         self.map.showsUserLocation = true // shows blue dot
         
-        //////////////////////////////////// GEOCODER - REVERSE ZIPCODE LOOKUP  /////////////////////
+/////////////////////////////////////////// GEOCODER - REVERSE ZIPCODE LOOKUP  /////////////////////
         
         CLGeocoder().reverseGeocodeLocation(location) { (placemark, error) in //placemark keeps track of all addresses in location and extracts
             if error != nil {
@@ -222,7 +222,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         }
     }
     
-    ////////////////////////////////////////// VIEW DID LOAD /////////////////////////
+/////////////////////////////////////////////// VIEW DID LOAD /////////////////////////
     
     override func viewDidLoad()
     {
@@ -238,9 +238,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         // CONFIG MAP
         
         map.delegate = self
+        map.showsScale = true
         // END CONFIG MAP
     }
-    
 }
 
 ////////////////////////////// SETS UP ANNOTATIONS //////////////////////////////////
@@ -271,8 +271,8 @@ extension ViewController : MKMapViewDelegate
         return nil
     }
     
-    //////////////// TAPPING INFO BUTTON CONTROLS ////////////////////////////
-    // MARK: - info button controls
+///////////////////////// TAPPING INFO BUTTON CONTROLS ////////////////////////////
+
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl)
     {
         // this is the event pin containing all data relevant to DetailViewController !
@@ -281,7 +281,7 @@ extension ViewController : MKMapViewDelegate
         performSegue(withIdentifier: "showDetails", sender: self)
     }
     
-    ////////////////  LINKS TWO VIEWS VIA SEGUE //////////////////////////////////////
+//////////////////////////  LINKS TWO VIEWS VIA SEGUE //////////////////////////////////////
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetails" {

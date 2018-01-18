@@ -241,6 +241,26 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         map.showsScale = true
         // END CONFIG MAP
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        super.viewDidLoad()
+        
+        self.processSongkickData(currentLat: self.currentLat, currentLong: self.currentLong)
+        
+        manager.delegate = self
+        manager.desiredAccuracy = kCLLocationAccuracyBest  // accuracy
+        manager.requestWhenInUseAuthorization()   // user has to agree to use data when using app
+        manager.startUpdatingLocation()  // updates location constantly
+        
+        // CONFIG MAP
+        
+        map.delegate = self
+        map.showsScale = true
+        // END CONFIG MAP
+        
+    }
 }
 
 ////////////////////////////// SETS UP ANNOTATIONS //////////////////////////////////

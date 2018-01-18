@@ -18,16 +18,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="musicspot_app_home1.png" translatesAutoresizingMaskIntoConstraints="NO" id="TaK-U0-MiD">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_home.png" translatesAutoresizingMaskIntoConstraints="NO" id="UfQ-6C-Ada">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="TaK-U0-MiD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3WK-MD-wUM"/>
-                            <constraint firstItem="TaK-U0-MiD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3XS-rW-0ol"/>
-                            <constraint firstItem="TaK-U0-MiD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="CpJ-4z-T1d"/>
-                            <constraint firstItem="TaK-U0-MiD" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="oH0-oP-lPb"/>
+                            <constraint firstItem="UfQ-6C-Ada" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="KBs-3r-ZBQ"/>
+                            <constraint firstItem="UfQ-6C-Ada" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dEq-dT-oGs"/>
+                            <constraint firstItem="UfQ-6C-Ada" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="xi3-J7-hST"/>
+                            <constraint firstItem="UfQ-6C-Ada" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yvc-d4-YEb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -38,6 +38,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="musicspot_app_home1.png" width="1080" height="1920"/>
+        <image name="app_home.png" width="1080" height="1920"/>
     </resources>
 </document>

@@ -260,7 +260,7 @@ extension ViewController : MKMapViewDelegate
                 view = dequeuedView
             } else {
                 view = MKAnnotationView(annotation: annotation, reuseIdentifier: identifier)
-                view.image = UIImage(named: "mappin")
+                view.image = UIImage(named: "mappin35")
                 view.canShowCallout = true
                 // view.animatesDrop = true
                 view.calloutOffset = CGPoint(x: -5, y: 5)

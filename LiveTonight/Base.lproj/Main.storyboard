@@ -90,13 +90,13 @@
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="g5j-vm-Cf4">
                                 <rect key="frame" x="16" y="135" width="382" height="292"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" red="0.98592901057744042" green="1" blue="0.52817743037375164" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDp-sy-k7Q">
-                                <rect key="frame" x="133" y="451" width="159" height="113"/>
+                                <rect key="frame" x="66" y="448" width="289" height="78"/>
                                 <state key="normal" image="share.png"/>
                                 <connections>
                                     <action selector="shareFacebook:" destination="Duc-8C-ctg" eventType="touchUpInside" id="1do-rc-FhQ"/>
@@ -115,13 +115,13 @@
                             <constraint firstItem="ntC-ea-74v" firstAttribute="top" secondItem="8j1-Kk-hms" secondAttribute="top" constant="16" id="Qat-cW-Lts"/>
                             <constraint firstItem="6G0-4D-dOE" firstAttribute="top" secondItem="g5j-vm-Cf4" secondAttribute="bottom" constant="154" id="TsV-fg-NtR"/>
                             <constraint firstItem="8j1-Kk-hms" firstAttribute="trailing" secondItem="y4N-si-oMg" secondAttribute="trailing" constant="16" id="WnK-0R-657"/>
-                            <constraint firstItem="yDp-sy-k7Q" firstAttribute="top" secondItem="g5j-vm-Cf4" secondAttribute="bottom" constant="24" id="YjU-C2-umA"/>
-                            <constraint firstItem="6G0-4D-dOE" firstAttribute="top" secondItem="yDp-sy-k7Q" secondAttribute="bottom" constant="17" id="aVV-3d-gYB"/>
+                            <constraint firstItem="yDp-sy-k7Q" firstAttribute="top" secondItem="g5j-vm-Cf4" secondAttribute="bottom" constant="21" id="YjU-C2-umA"/>
+                            <constraint firstItem="6G0-4D-dOE" firstAttribute="top" secondItem="yDp-sy-k7Q" secondAttribute="bottom" constant="55" id="aVV-3d-gYB"/>
                             <constraint firstItem="6G0-4D-dOE" firstAttribute="trailing" secondItem="y4N-si-oMg" secondAttribute="trailing" id="cCY-0t-b0w"/>
                             <constraint firstItem="y4N-si-oMg" firstAttribute="top" secondItem="6G0-4D-dOE" secondAttribute="bottom" constant="14" id="f5z-Te-QT4"/>
-                            <constraint firstItem="yDp-sy-k7Q" firstAttribute="leading" secondItem="8j1-Kk-hms" secondAttribute="leading" constant="133" id="fmx-JJ-WiE"/>
+                            <constraint firstItem="yDp-sy-k7Q" firstAttribute="leading" secondItem="8j1-Kk-hms" secondAttribute="leading" constant="66" id="fmx-JJ-WiE"/>
                             <constraint firstItem="YM1-Xf-9DA" firstAttribute="top" secondItem="67x-s0-aXx" secondAttribute="top" id="hIe-Yc-elO"/>
-                            <constraint firstItem="8j1-Kk-hms" firstAttribute="trailing" secondItem="yDp-sy-k7Q" secondAttribute="trailing" constant="122" id="jOq-Si-X5d"/>
+                            <constraint firstItem="8j1-Kk-hms" firstAttribute="trailing" secondItem="yDp-sy-k7Q" secondAttribute="trailing" constant="59" id="jOq-Si-X5d"/>
                             <constraint firstItem="8j1-Kk-hms" firstAttribute="trailing" secondItem="g5j-vm-Cf4" secondAttribute="trailing" constant="16" id="xI0-Tr-RSA"/>
                             <constraint firstItem="8j1-Kk-hms" firstAttribute="bottom" secondItem="y4N-si-oMg" secondAttribute="bottom" constant="16" id="y2Q-N7-KlX"/>
                             <constraint firstItem="YM1-Xf-9DA" firstAttribute="trailing" secondItem="8j1-Kk-hms" secondAttribute="trailing" id="zmt-XW-rQe"/>
@@ -143,7 +143,7 @@
         <image name="musicspot_btn_back1.png" width="536" height="288"/>
         <image name="musicspot_btn_jkd1.png" width="467" height="137"/>
         <image name="musicspot_btn_sk1.png" width="843" height="321"/>
-        <image name="share.png" width="540" height="540"/>
+        <image name="share.png" width="987" height="283"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="WZ8-g0-6Ke"/>

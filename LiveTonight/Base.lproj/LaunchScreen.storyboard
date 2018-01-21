@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,17 +15,21 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_home.png" translatesAutoresizingMaskIntoConstraints="NO" id="UfQ-6C-Ada">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="UfQ-6C-Ada" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7mC-Kb-cxA"/>
                             <constraint firstItem="UfQ-6C-Ada" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="KBs-3r-ZBQ"/>
+                            <constraint firstItem="UfQ-6C-Ada" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="L73-c6-a6n"/>
+                            <constraint firstItem="UfQ-6C-Ada" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="bx0-Gw-6ZQ"/>
                             <constraint firstItem="UfQ-6C-Ada" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dEq-dT-oGs"/>
+                            <constraint firstItem="UfQ-6C-Ada" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ldG-4P-JDC"/>
                             <constraint firstItem="UfQ-6C-Ada" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="xi3-J7-hST"/>
                             <constraint firstItem="UfQ-6C-Ada" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yvc-d4-YEb"/>
                         </constraints>
